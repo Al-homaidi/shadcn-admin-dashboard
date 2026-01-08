@@ -5,7 +5,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { useState } from "react"
 
 const CalendarPage = () => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [date, setDate] = useState<Date | undefined>(new Date())
 
     return (
